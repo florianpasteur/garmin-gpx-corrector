@@ -1,0 +1,21 @@
+{
+  "name": "garmin-gpx-corrector",
+  "version": "1.0.0",
+  "description": "Utility to remove unwanted gps trackpoints for a GPX or TCX file",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "Garmin",
+    "GPX",
+    "TCX"
+  ],
+  "author": "Florian PASTEUR",
+  "license": "MIT",
+  "dependencies": {
+    "geo-position.ts": "^1.4.1",
+    "typescript": "^4.4.4"
+  }
+}
